@@ -1,7 +1,7 @@
 package Algorithm::IRCSRP2::Exchange;
 
 BEGIN {
-    $Algorithm::IRCSRP2::Exchange::VERSION = '0.500';
+    $Algorithm::IRCSRP2::Exchange::VERSION = '0.501';
 }
 
 # ABSTRACT: utility functions
@@ -79,7 +79,7 @@ Algorithm::IRCSRP2::Exchange - utility functions
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

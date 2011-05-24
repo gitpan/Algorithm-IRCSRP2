@@ -1,7 +1,7 @@
 package Algorithm::IRCSRP2::Alice;
 
 BEGIN {
-    $Algorithm::IRCSRP2::Alice::VERSION = '0.500';
+    $Algorithm::IRCSRP2::Alice::VERSION = '0.501';
 }
 
 # ABSTRACT: Alice interface
@@ -196,7 +196,7 @@ Algorithm::IRCSRP2::Alice - Alice interface
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

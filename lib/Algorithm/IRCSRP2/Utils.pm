@@ -1,7 +1,7 @@
 package Algorithm::IRCSRP2::Utils;
 
 BEGIN {
-    $Algorithm::IRCSRP2::Utils::VERSION = '0.500';
+    $Algorithm::IRCSRP2::Utils::VERSION = '0.501';
 }
 
 # ABSTRACT: Algorithm utility functions
@@ -14,6 +14,7 @@ use Digest::SHA;
 use Math::BigInt only => 'GMP,Pari';
 
 # CPAN
+use Crypt::URandom qw();
 use Sub::Exporter;
 
 Sub::Exporter::setup_exporter(
@@ -49,11 +50,7 @@ sub N {
 sub urandom {
     my ($amount) = @_;
 
-    my $s;
-    open(my $r, '<', '/dev/urandom') or die $!;
-    read($r, $s, $amount) or die $!;
-
-    return $s;
+    return Crypt::URandom::urandom($amount);
 }
 
 sub randint {
@@ -162,7 +159,7 @@ Algorithm::IRCSRP2::Utils - Algorithm utility functions
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 AUTHOR
 

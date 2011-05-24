@@ -14,9 +14,10 @@ meta-spec:
 name: Algorithm-IRCSRP2
 requires:
   Crypt::OpenSSL::AES: 0
+  Crypt::URandom: 0
   Digest::SHA: 0
   MIME::Base64: 0
   Math::BigInt::GMP: 0
   Moose: 0
   Sub::Exporter: 0
-version: 0.500
+version: 0.501

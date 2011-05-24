@@ -1,7 +1,7 @@
 package Algorithm::IRCSRP2;
 
 BEGIN {
-    $Algorithm::IRCSRP2::VERSION = '0.500';
+    $Algorithm::IRCSRP2::VERSION = '0.501';
 }
 
 # ABSTRACT: IRC channel encryption algorithm
@@ -228,7 +228,7 @@ Algorithm::IRCSRP2 - IRC channel encryption algorithm
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

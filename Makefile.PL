@@ -21,13 +21,14 @@ my %WriteMakefileArgs = (
   'NAME' => 'Algorithm::IRCSRP2',
   'PREREQ_PM' => {
     'Crypt::OpenSSL::AES' => '0',
+    'Crypt::URandom' => '0',
     'Digest::SHA' => '0',
     'MIME::Base64' => '0',
     'Math::BigInt::GMP' => '0',
     'Moose' => '0',
     'Sub::Exporter' => '0'
   },
-  'VERSION' => '0.500',
+  'VERSION' => '0.501',
   'test' => {
     'TESTS' => 't/*.t'
   }
